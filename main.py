@@ -1,7 +1,8 @@
 import turtle
 
 def instructions():
-    print("Test")
+    print("1. Enter North, East, South, or West to move around the map")
+    print("2. Escape the vault, explore the map, and eliminate enemies")
     menu()
 
 def playgame():
@@ -11,7 +12,7 @@ def bunker1():
     print("test")
 
 def menu():
-    input("1. Play\n2. Instructions\n3. Quit\nChoose: ")
+    input("\n-----Menu-----\n1. Play\n2. Instructions\n3. Quit\nEnter your choice (1, 2, or 3): ")
     if input == "1":
         playgame()
 
