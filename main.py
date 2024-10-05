@@ -122,7 +122,7 @@ def bunker3(t, length):
         You are looking east.
         There is a door behind you.
         There is a 43" tv, couch, and rug in the middle of the room.
-        There are war posters scatter around the walls.
+        There are war posters scattered around the walls.
         The door to your bedroom is northwest, the exit is north, and the door to the kitchen is northeast.
         *Perhaps there's something hidden behind the posters*
         """ # Writes description for bunker living room
