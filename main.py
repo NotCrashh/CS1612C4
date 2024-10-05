@@ -103,6 +103,8 @@ def bunker2(t, length):
         t.sety(t.ycor() - 20)  # Move down to the next line
         t.pendown()
 
+    turtle.done()
+
 def bunker3(t, length):
     for _ in range(3): # Replays function bellow thrice
         t.forward(length) # Moves turtle forward 100 spaces
@@ -135,6 +137,8 @@ def bunker3(t, length):
         t.penup()
         t.sety(t.ycor() - 20)  # Move down to the next line
         t.pendown()
+
+    turtle.done()
 
 def gasStation1(t, length):
     text = turtle.Turtle()
